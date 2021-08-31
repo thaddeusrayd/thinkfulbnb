@@ -35,6 +35,37 @@
       <section id="stay">
         <h2>Find the perfect vacation rental</h2>
         <!-- Create a form here -->
+        <form class="group">
+          <div class="item">
+            <label for="location">Location</label>
+            <input 
+              type="text" 
+              id="location" 
+              name="location" 
+              placeholder="Search destination">
+          </div>
+          <div class="item">
+            <label for="arrive">Arrive</label>
+            <input type="date" id="arrive" name="arrive">
+          </div>
+          <div class="item">            
+            <label for="depart">Depart</label>
+            <input type="date" id="depart" name="depart">
+          </div>
+          <div class="item">
+            <label for="type">Type</label>
+            <select name="type" id="type" size="1">
+              <option value="apartment">Apartment</option>
+              <option value="barn">Barn</option>
+              <option value="castle">Castle</option>
+              <option value="houseboat">Houseboat</option>
+              <option value="tinyhouse">Tiny House</option>
+              <option value="yacht">Yacht</option>
+              <option value="yurt">Yurt</option>
+            </select>
+          </div>
+          <button type="submit">Search</button>
+        </form>
       </section>
 
       <!-- About -->
