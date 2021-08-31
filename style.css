@@ -147,21 +147,27 @@ footer p {
   header nav {
     margin-right: 10px;
   }
-
   .group {
     flex-direction: row;
-    align-items: center;
   }
   .item {
     display: flex;
     flex-direction: column;
   }
+
+  form {
+    height: 65px;
+    justify-content: space-between;
+  }
   form button {
     width: 180px;
-    height: 60px;
   }
+
   #about {
     flex-direction: column;
+  }
+  #about .group {
+    align-items: center;
   }
   #about img {
     flex: 1;
